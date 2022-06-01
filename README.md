@@ -1,9 +1,3 @@
-
-    If the two players choose the same “character” it’s a tie, and the game repeats
-    Rock beats Scissors
-    Paper beats Rock
-    Scissors beats Paper
-
 You have been tasked to create a simple version of this game with Python. In your version, one player will be controlled by the computer and the other player controlled by you - the user (i.e CPU vs Player). 
 
 You should make use of the inbuilt Python module random and its choice method.
@@ -15,6 +9,9 @@ Instructions:
         "R" for "rock", 
         "P" for "paper", 
         "S" for "scissors".
+        Rock beats Scissors
+        Paper beats Rock
+        Scissors beats Paper
     When the program is run, ask the user to pick an option between "R", "P" or "S"
     If user input is invalid (not amongst our options), print an error, and ask for their input again (should be a loop)
     Use the `choice` function from the inbuilt Python `random` module to make a choice for CPU player(computer).
@@ -22,4 +19,5 @@ Instructions:
     Check both player's moves: 
     If there is a winner, print the winner, and the program ends. 
     If it's a tie (the computer and player pick the same move), restart the game from step 3
-
+    If the two players choose the same “character” it’s a tie, and the game repeats
+    
